@@ -1,0 +1,15 @@
+//Existence HL Modification
+
+game "Existence" // Game title
+url_info "http://www.whatisexistence.com" // Info URL
+url_dl "" // Downloading URL
+version "Beta 1.4" // version of mod
+size "110918311" // size of mod
+svonly "0" // server side only mod? (1=yes 0=no)
+cldll "1" // client side dll? (1=yes 0=no)
+hlversion "1018" // version of halflife
+type "multiplayer_only" // type of mod
+nomodels "1" // game selects player model (1=yes 0=no)
+mpentity "info_player_deathmatch"
+
+gamedll "dlls\existence.dll"

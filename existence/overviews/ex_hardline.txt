@@ -1,0 +1,14 @@
+// overview description file for ex_hardline.bsp
+
+global 
+{
+	ZOOM	1.26
+	ORIGIN	788 	64	833
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/ex_hardline.bmp"
+	HEIGHT	-280
+}

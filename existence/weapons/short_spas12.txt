@@ -1,0 +1,7 @@
+Loading Energy: 1000
+
+Max Clip: 8
+
+Max Rounds: 25
+
+Rate of fire: 1 buckshot per second.

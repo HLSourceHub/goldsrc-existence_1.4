@@ -1,0 +1,12 @@
+// cellphone
+
+8	// number of sprites
+weapon			320 320weapon_cellphone	0	0	85	22
+weapon_s		320 320weapon_cellphone	0	23	85	22
+crosshair		320 crosshairs	1	1	1	1
+autoaim			320 crosshairs	48	72	24	24
+weapon			640 weapon_cellphone	0	0	171	45
+weapon_s		640 weapon_cellphone	0	45	171	45
+crosshair		640 crosshairs	1	1	1	1
+autoaim			640 crosshairs	48	72	24	24
+

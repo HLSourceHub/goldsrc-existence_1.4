@@ -1,0 +1,156 @@
+// Command Menu definition
+// 
+// Basic Format:
+//		"<Bound Key>" "<Button Text>" "<Command sent to server>"
+//
+// Or you can check for a specific class:
+//		<Class> "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// Where <Class> is one of: SCOUT, SNIPER, SOLDIER, DEMOMAN, MEDIC, HWGUY, PYRO, SPY, ENGINEER
+// 
+// Or you can check for a specific map:
+//		MAP <MapName> "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// Where <MapName> is the name of the map, without the ".bsp".
+//
+// Or you can check for a specific team:
+//		TEAM1 "<BoundKey>" "<Button Text>" "<Command sent to server>"
+//		TEAM2 "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// TEAM3, TEAM4 work as well
+//
+// Buttons can also open up submenus, as follows:
+// {
+// 	"Some More Options",
+//	{
+//		...
+//	}
+// }
+//
+// Class can be any of the following:
+//		SCOUT, SNIPER, SOLDER, DEMOMAN, MEDIC, HWGUY, PYRO, SPY, ENGINEER
+//	Buttons prepended with a class name will only be seen if the player
+//	is that class. 
+//
+// Buttons preceded with "CUSTOM" are handled in special ways. They can only be moved
+// around or deleted.
+//
+//
+// Limitations:
+//		Maximum of 40 menus.
+//		Maximum of 100 buttons per menu.
+
+//--------------------------------------------------------
+// Help menu
+"1" "HELP"
+{
+	CUSTOM		"1" "SERVER INFO"		"!SERVERINFO"
+	CUSTOM		"2" "MAP DESCRIPTION"	"!MAPBRIEFING"
+}
+
+// Messages said to teammates
+"2" "TEAM MESSAGE"
+{
+	// Map Specific
+
+	MAP ex_hardline "1" "MAP EX_HARDLINE"
+	{
+		// Rebels
+		TEAM1 "1" "'Affirmative'"		"say_team Affirmative."
+		TEAM1 "2" "'Negative'"			"say_team Negative."
+		TEAM1 "3" "'Help at Base'"		"say_team Need backup at Rebel building."
+		TEAM1 "4" "'Where is White'"		"say_team Where is Dr. White?"
+		TEAM1 "5" "'Plant the Explosives'"	"say_team Plant the explosives in the mainframe room!"
+		TEAM1 "6" "'Follow me Team'"		"say_team Follow me Team."
+		TEAM1 "7" "'Reconnect Hardline'"	"say_team Reconnect the Hardline team!"
+		TEAM1 "8" "'Sniper Alert'"		"say_team Lookout, we got a sniper out there!"
+		TEAM1 "9" "'Kill All Agents'"		"say_team Mission is hopeless our only chance is to kill all agents."
+
+		// Agents
+		TEAM2 "1" "'Affirmative'"		"say_team Affirmative."
+		TEAM2 "2" "'Negative'"			"say_team Negative."
+		TEAM2 "3" "'Help at Base'"		"say_team Need Backup at Agent Building."
+		TEAM2 "4" "'Find Dr. White'"		"say_team Find Dr. White!"
+		TEAM2 "5" "'Protect Explosives'" 	"say_team Protect Rebel Explosives!"
+		TEAM2 "6" "'Follow me'"			"say_team Follow my lead Men."
+		TEAM2 "7" "'Flush em' out'"		"say_team Flush em' out!"
+		TEAM2 "8" "'Sniper Alert'"		"say_team Lookout, we got a sniper out there!"
+	//	TEAM2 "9" "'Kill All Rebels'"		"say_team Mission is hopeless our only chance is to kill all rebels."
+		TEAM2 "9" "'Disconnect Hardline'"	"say_team Hardline connection is active, disconnect it quick!"
+	}
+
+	MAP ex_highway "1" "MAP EX_HIGHWAY"
+	{
+		// Rebels
+		TEAM1 "1" "'Affirmative'"		"say_team Affirmative."
+		TEAM1 "2" "'Negative'"			"say_team Negative."
+		TEAM1 "3" "'Help at Base'"		"say_team Need backup at Rebel base."
+		TEAM1 "4" "'Where is White'"		"say_team Where is Dr. White?"
+		TEAM1 "5" "'Plant the Explosives'"	"say_team Plant the explosives in the tube room!"
+		TEAM1 "6" "'Follow me Team'"		"say_team Follow me Team."
+		TEAM1 "7" "'Reconnect Hardline'"	"say_team Reconnect the Hardline team!"
+		TEAM1 "8" "'Sniper Alert'"		"say_team Lookout, we got a sniper out there!"
+		TEAM1 "9" "'Kill All Agents'"		"say_team Mission is hopeless our only chance is to kill all agents."
+
+		// Agents
+		TEAM2 "1" "'Affirmative'"		"say_team Affirmative."
+		TEAM2 "2" "'Negative'"			"say_team Negative."
+		TEAM2 "3" "'Help at Base'"		"say_team Need Backup at Agent Building."
+		TEAM2 "4" "'Find Dr. White'"		"say_team Find Dr. White!"
+		TEAM2 "5" "'Protect Explosives'" 	"say_team Protect Rebel Explosives!"
+		TEAM2 "6" "'Follow me'"			"say_team Follow my lead Men."
+		TEAM2 "7" "'Flush em' out'"		"say_team Flush em' out!"
+		TEAM2 "8" "'Sniper Alert'"		"say_team Lookout, we got a sniper out there!"
+	//	TEAM2 "9" "'Kill All Rebels'"		"say_team Mission is hopeless our only chance is to kill all rebels."
+		TEAM2 "9" "'Disconnect Hardline'"	"say_team Hardline connection is active, disconnect it quick!"
+	}
+
+	MAP ex_highway "1" "MAP EX_BLACKOUT"
+	{
+		// Rebels
+		TEAM1 "1" "'Affirmative'"		"say_team Affirmative."
+		TEAM1 "2" "'Negative'"			"say_team Negative."
+		TEAM1 "3" "'Help at Base'"		"say_team Need backup at Rebel base."
+		TEAM1 "4" "'Where is White'"		"say_team Where is Dr. White?"
+		TEAM1 "5" "'Plant the Explosives'"	"say_team Plant the explosives in the tube room!"
+		TEAM1 "6" "'Follow me Team'"		"say_team Follow me Team."
+		TEAM1 "7" "'Reconnect Hardline'"	"say_team Reconnect the Hardline team!"
+		TEAM1 "8" "'Sniper Alert'"		"say_team Lookout, we got a sniper out there!"
+		TEAM1 "9" "'Kill All Agents'"		"say_team Mission is hopeless our only chance is to kill all agents."
+
+		// Agents
+		TEAM2 "1" "'Affirmative'"		"say_team Affirmative."
+		TEAM2 "2" "'Negative'"			"say_team Negative."
+		TEAM2 "3" "'Help at Base'"		"say_team Need Backup at Agent Building."
+		TEAM2 "4" "'Find Dr. White'"		"say_team Find Dr. White!"
+		TEAM2 "5" "'Protect Explosives'" 	"say_team Protect Rebel Explosives!"
+		TEAM2 "6" "'Follow me'"			"say_team Follow my lead Men."
+		TEAM2 "7" "'Flush em' out'"		"say_team Flush em' out!"
+		TEAM2 "8" "'Sniper Alert'"		"say_team Lookout, we got a sniper out there!"
+	//	TEAM2 "9" "'Kill All Rebels'"		"say_team Mission is hopeless our only chance is to kill all rebels."
+		TEAM2 "9" "'Disconnect Hardline'"	"say_team Hardline connection is active, disconnect it quick!"
+	}
+
+
+}
+
+//Radio commands
+"3" "RADIO"
+{	
+	// Rebels
+	TEAM1 "1" "'As one Team'"			"!radio1"
+	TEAM1 "2" "'Spread Out'"			"!radio2"
+	TEAM1 "3" "'Hold this Position'"		"!radio3"
+	TEAM1 "4" "'Rush in 3,2,1..GO!'"		"!radio4"
+	TEAM1 "5" "'Reconnect Hardline'"		"!radio5"
+	TEAM1 "6" "'Meet at Infiltration Target'"	"!radio6"
+	TEAM1 "7" "'Rescue Dr. White'"			"!radio7"
+	TEAM1 "8" "'Escort Dr. White Team'"		"!radio8"
+
+	// Agents
+	TEAM2 "1" "'Stay together Men'"			"!agentradio1"
+	TEAM2 "2" "'Spread out Men'"			"!agentradio2"
+	TEAM2 "3" "'Hold this Position'"		"!agentradio3"
+	TEAM2 "4" "'Attack on 3,2,1..Now!'"		"!agentradio4"
+	TEAM2 "5" "'Secure Neurotech Building'"		"!agentradio5"
+	TEAM2 "6" "'Guard Prisoner'"			"!agentradio6"
+	TEAM2 "7" "'Secure Rebel Exits'"		"!agentradio7"
+	
+}

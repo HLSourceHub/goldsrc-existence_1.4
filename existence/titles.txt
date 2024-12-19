@@ -1,0 +1,844 @@
+// ===========
+// Menu Items
+// ===========
+Menu_OK
+{
+OK
+}
+
+Menu_Cancel
+{
+Cancel
+}
+
+Menu_Spectate
+{
+Spectate
+}
+
+Menu_Spectate
+{
+SPECTATE
+}
+Spec_Mode_Inset0
+{
+Inset Window Off
+}
+
+Spec_Mode_Inset1
+{
+Inset Chase-Camera Mode
+}
+
+Spec_Mode_Inset2
+{
+Inset First Person Mode
+}
+
+Spec_Mode_Inset3
+{
+Inset Map Mode
+}
+
+// ===========
+// Titles
+// ===========
+Title_SelectYourTeam
+{
+SELECT YOUR TEAM
+}
+
+Title_SelectYourClass
+{
+SELECT YOUR CLASS
+}
+
+Title_CurrentlyOnYourTeam
+{
+There are %d on your team
+}
+
+Title_SelectYourCharacter
+{
+SELECT YOUR CHARACTER
+}
+
+
+Title_randompc
+{
+Random
+}
+
+// ===========
+// Team buttons
+// ===========
+Team_AutoAssign
+{
+Auto Assign
+}
+
+
+Random
+{
+Random
+}
+
+// ===========
+// For Scoreboard
+// ===========
+PLAYERS
+{
+Players
+}
+
+
+CHARACTER
+{
+Character
+}
+
+CLASS
+{
+Class
+}
+
+SCORE
+{
+Score
+}
+
+DEATHS
+{
+Deaths
+}
+
+LATENCY
+{
+Latency
+}
+
+Unassigned
+{
+Unassigned
+}
+
+Spectators
+{
+Spectators
+}
+
+// ===========
+// For Spectator
+// ===========
+Spec_Mode1
+{
+Locked Chase-Camera Mode
+}
+
+Spec_Mode2
+{
+Free Chase-Camera Mode
+}
+
+Spec_Mode3
+{
+Free Roaming Mode
+}
+
+Spec_Mode4
+{
+First Person Mode
+}
+
+Spec_Mode5
+{
+Overview Map Mode
+}
+
+
+Spec_NoTarget
+{
+No valid targets. Cannot switch to Chase-Camera Mode.
+}
+
+Spec_Help
+{
+FIRE for Next Target  ALT-FIRE for Prev Target  JUMP to Change Modes  chooseteam key to join
+}
+
+Spec_Help2
+{
+Your text messages can only be seen by other Spectators
+}
+
+Spec_Only_Help
+{
+DUCK to Change Inset Mode  FIRE for Next Target  ALT-FIRE for Prev Target  JUMP to Change Modes
+}
+
+Directed
+{
+Auto
+}
+
+taunt
+{
+1. Point H
+2. Point left
+3. Point right
+4. Point up
+5. Point down
+6. Nod yes
+7. Nod no
+}
+
+team
+{
+Choose your Team
+1. Rebels
+2. Agents
+
+5. Auto-Team
+}
+
+rebel
+{
+1. James Leed
+2. Justin White
+3. Chris Meadows
+4. Stephanie Clark
+5. Nick Llamas
+6. Manuel Mendez
+7. Stephen Martel
+}
+
+agent
+{
+1. Robert Preston
+2. Erik Backman
+3. Gabe Johnson
+4. David Scordo
+5. Gordon Freeman
+6. Yahn LEE
+7. Eli Coombe
+}
+
+rnd_over
+{
+1. No Change
+2. Change Team
+3. Change Characters
+}
+
+blank
+{
+}
+
+neo
+{
+James Leed
+}
+
+morpheus
+{
+Justin White
+}
+
+trinity
+{
+Chris M.
+}
+
+tank
+{
+Stephanie C.
+}
+
+mouse
+{
+Nick Llamas
+}
+
+switch
+{
+Manuel Mendez
+}
+
+apoc
+{
+Stephen Martel
+}
+
+smith
+{
+Robert P.
+}
+
+jones
+{
+Erik Backman
+}
+
+brown
+{
+Gabe Johnson
+}
+
+johnson
+{
+David Scordo
+}
+
+freeman
+{
+Gordon Freeman
+}
+
+lee
+{
+Yahn Lee
+}
+
+cypher
+{
+Eli Coombe
+}
+
+Title_neo
+{
+James Leed
+}
+
+Title_morpheus
+{
+Justin White
+}
+
+Title_trinity
+{
+Chris Meadows
+}
+
+Title_tank
+{
+Stephanie Clark
+}
+
+Title_mouse
+{
+Nick Llamas
+}
+
+Title_switch
+{
+Manuel Mendez
+}
+
+Title_apoc
+{
+Stephen Martel
+}
+
+Title_smith
+{
+Robert Preston
+}
+
+Title_jones
+{
+Erik Backman
+}
+
+Title_brown
+{
+Gabe Johnson
+}
+
+Title_johnson
+{
+David Scordo
+}
+
+Title_freeman
+{
+Gordon Freeman
+}
+
+Title_lee
+{
+Yahn Lee
+}
+
+Title_cypher
+{
+Eli Coombe
+}
+
+Title_RoundOver
+{
+Do you wish to change your Team or Character?
+}
+
+Title_NoChanges
+{
+No Changes
+}
+
+Title_ChangeTeam
+{
+Change Team
+}
+
+Title_ChangeCharacter
+{
+Change Character
+}
+
+//Weapon Menus
+//Rebels
+
+Title_WeaponsRebels
+{
+Select a weapon to load.
+}
+
+usp
+{
+USP
+}
+
+Title_usp
+{
+USP
+}
+
+dualberrettas
+{
+Dual Berrettas
+}
+
+Title_berrettas
+{
+Dual Berrettas
+}
+
+ak47
+{
+AK47
+}
+
+Title_ak47
+{
+AK47
+}
+
+dualmp5k
+{
+Dual HK Mp5k
+}
+
+Title_dualmp5k
+{
+Dual HK Mp5k
+}
+
+dualscorpion
+{
+Dual Scorpion
+}
+
+Title_dualscorpion
+{
+Dual Scorpion
+}
+
+stonersilencer
+{
+Stoner Sil.
+}
+
+Title_stonersilencer
+{
+Stoner Silencer
+}
+
+stonerscope
+{
+Stoner Scope
+}
+
+Title_stonerscope
+{
+Stoner Scope
+}
+
+awm
+{
+AWM
+}
+
+Title_awm
+{
+Arctic Warfare Magnum
+}
+
+minigun
+{
+M134 Minigun
+}
+
+Title_minigun
+{
+M134 Vulcan Minigun
+}
+
+//Agents
+
+Title_WeaponsAgents
+{
+Select a weapon to load.
+}
+
+berretta
+{
+Berretta
+}
+
+Title_berretta
+{
+Berretta
+}
+
+deserteagle
+{
+Desert Eagle
+}
+
+Title_deserteagle
+{
+Desert Eagle
+}
+
+dualuzi
+{
+Dual Uzi Pistol
+}
+
+Title_dualuzi
+{
+Dual Uzi Pistol 9mm
+}
+
+mp5a4
+{
+Mp5A4
+}
+
+Title_mp5a4
+{
+Mp5A4
+}
+
+spas12
+{
+Spas-12
+}
+
+Title_spas12
+{
+Spas-12
+}
+
+m16
+{
+M-16
+}
+
+Title_m16
+{
+M-16
+}
+
+stoner
+{
+Stoner 9mm
+}
+
+Title_stoner
+{
+Stoner 9mm
+}
+
+psg1
+{
+PSG-1
+}
+
+Title_psg1
+{
+PSG-1
+}
+
+xm4
+{
+XM4
+}
+
+Title_xm4
+{
+XM4
+}
+
+Title_AbilityMenu
+{
+Which Ability do you want to load?
+}
+
+Title_longjump
+{
+Download Long Jump Ability
+}
+
+longjump
+{
+Long Jump
+}
+
+Title_highjump
+{
+Download High Jump Ability
+}
+
+highjump
+{
+High Jump
+}
+
+Title_speedboost
+{
+Download Speed Boost Ability
+}
+
+speedboost
+{
+Speed Boost
+}
+
+Title_GearMenu
+{
+Would you like to load Weapons or Abilites?
+}
+
+Title_buyweapons
+{
+Load Weapons.
+}
+
+buyweapons
+{
+Weapons
+}
+
+Title_buyabilites
+{
+Load Abilites.
+}
+
+buyabilites
+{
+Abilites
+}
+
+Title_smokegrenade
+{
+Smoke Grenade
+}
+
+smokegrenade
+{
+Smoke Grenade
+}
+
+Title_expgrenade
+{
+Exploding Grenade
+}
+
+expgrenade
+{
+Grenade
+}
+
+vest
+{
+CBP Kevlar Vest
+}
+
+Title_vest
+{
+BULLET PROOF KEVLAR VEST
+}
+
+upgradevest
+{
+AAPB Kevlar Vest
+}
+
+Title_upgradevest
+{
+ANTI ARMOUR-PIERCING BULLETS AND STAB PROOF
+}
+
+
+Title_buyequipment
+{
+Load Equipment.
+}
+
+buyequipment
+{
+Equipment
+}
+
+Next_Round
+{
+Round Status:
+}
+
+Next_allrebelsdead
+{
+All Rebels Have Died.
+}
+
+Next_allagentsdead
+{
+All Agents Have Died.
+}
+
+Next_whiteescaped
+{
+Dr. White has escaped back to the Rebel Base.
+}
+
+Next_whiteheld
+{
+Dr. White has been cracked and the passwords are in the Agents hands.
+}
+
+Next_roundpaused
+{
+The Round will not start until a player is Dr. White.
+}
+
+Next_msg2
+{
+If you wish to change teams use your chooseteam button now.
+}
+
+RADIO_REBEL
+{
+-=- Radio -=-
+1. As one team!
+2. Spread Out!
+3. Hold this Position.
+4. Rush in 3,2,1..GO!
+5. Reconnect Hardline.
+6. Randevu at Infiltration Target.
+7. Rescue Dr. White.
+8. Escort Dr. White Team.
+}
+
+RADIO_AGENT
+{
+-=- Radio -=-
+1. Stay together Men
+2. Spread out Men
+3. Hold this Position.
+4. Rush in 3,2,1..GO!
+5. Secure Neurotech Building.
+6. Guard Prisoner.
+7. Secure Rebel Exits.
+}
+
+//Special effects for in-game messages
+
+$position -1 -1
+$color 12 200 12
+$effect 0
+$fadein 0.2
+$holdtime 2
+$fadeout 1
+
+In_Bombzone
+{
+You are in the bomb zone!
+Stay in the zone for 3 seconds
+and the bomb will be planted.
+}
+
+EVENT_BOMB_PLANTED
+{
+The Rebels planted the bomb!
+}
+
+EVENT_C4_DETONATED_REBEL
+{
+Return back to base with Dr. White!
+}
+
+EVENT_WHITE_CAPTURED_REBEL
+{
+Dr. White has been captured.
+}
+
+EVENT_RESCUED_REBEL
+{
+Dr. White has been rescued.
+}
+
+EVENT_WHITE_ESCAPED
+{
+White has escaped!
+}
+
+EVENT_WHITE_HELD_REBEL
+{
+Dr. White is part of Black Light's control
+virus spread is imminent...
+}
+
+EVENT_ROUND_JUST_STARTED_REBEL
+{
+Destroy Neurotech's mainframe!
+}
+
+EVENT_C4_DETONATED_AGENT
+{
+Mainframe non existent
+Dr. White must be captured!
+}
+
+EVENT_WHITE_CAPTURED_AGENT
+{
+Dr. White has been captured!
+Hold him prisoner for 3 minutes
+to obtain passwords!
+}
+
+EVENT_WHITE_RESCUED_AGENT
+{
+Dr. White is free, passwords
+have not been obtained.
+}
+
+EVENT_WHITE_HELD_AGENT
+{
+Neuroscan complete...
+passwords to restricted protocols obtained.
+Satellite connection successfull.
+}
+
+EVENT_ROUND_JUST_STARTED_AGENT
+{
+Capture Dr. White!
+}

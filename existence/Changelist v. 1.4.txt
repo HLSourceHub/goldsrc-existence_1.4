@@ -1,0 +1,36 @@
+This is the 1.4 beta release for this in-depth teamplay modification for Half-Life named Existence. See more info for feature details.
+
+
+Fixes: 
+1) Fixed crashing when joining a server. 
+2) Fixed telefragging (Spawning inside someone else). 
+3) Fixed chat bubble sticking when using cellphone (Removed). 
+4) Fixed white being casted as a civilian if joining after 90 seconds. 
+5) Weapons are now fully clientside. 
+6) Rebels/Agents don't get frags for killing swats/civs. 
+7) Fixed AK-47 allowed to be carried with another primary weapon. 
+8) Fixed bug where you would see a C4 backpack on all rebel models. 
+9) Fixed "Teams all full" bug. 
+10) Fixed bug where agents wouldn't get loadpoints for holding white for 3 mins. 
+11) Fixed Sprite: No such frame 0 errors. 
+12) Fixed randomly floating chat bubbles. 
+13) Fixed vulcan minigun's ammo counter. 
+14) Fixed FOV cheat. 
+
+Changes: 
+1) Changed the cellphone's primary fire to buy guns and it's second to team_say. 
+2) If over 14 players join a server you can only be a spectator. 
+3) Blood won't spawn if you shoot a teammate. 
+4) Agents can't open the jail doors. 
+5) You now get 100 points for killing a Rebel/Agent instead of 50 points. 
+6) Losing team gets 1000 loading points instead of 500. 
+7) Weakend both vest types. 
+8) Radio menu times out in 10 seconds. 
+
+Additions: 
+1) Added backround color on scoreboard for the person carrying the C4. 
+2) Scoreboard now displays who is a civilian and swat. 
+3) Added a spam fix for the radio commands. 
+4) Dr. White will now get back whatever gun he carries into the escape zone (has active). 
+5) Added 200 point bonus for living the whole round. 
+6) Now logging player suicides. 

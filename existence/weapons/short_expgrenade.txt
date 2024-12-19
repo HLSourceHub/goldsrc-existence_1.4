@@ -1,0 +1,3 @@
+Loading Energy: 250
+
+An explosive grenade that will explode 2 seconds after it's thrown.

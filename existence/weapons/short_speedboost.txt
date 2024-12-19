@@ -1,0 +1,3 @@
+Loading Energy: 500
+
+Gives you the ability to run at a faster speed for 5 seconds.

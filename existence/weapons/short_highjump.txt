@@ -1,0 +1,3 @@
+Loading Energy: 500
+
+Gives you the ability to jump high in the air.

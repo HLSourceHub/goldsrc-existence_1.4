@@ -1,0 +1,14 @@
+// overview description file for ex_highway.bsp
+
+global 
+{
+	ZOOM	1.13
+	ORIGIN	672 	704	841
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/ex_highway.bmp"
+	HEIGHT	-80
+}

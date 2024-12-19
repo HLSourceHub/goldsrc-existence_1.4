@@ -1,0 +1,7 @@
+Loading Energy: 3200
+
+Max Clip: 50
+
+Max Rounds: 250
+
+Rate of fire: 20 rounds per second.

@@ -1,0 +1,14 @@
+// overview description file for ex_blackout.bsp
+
+global 
+{
+	ZOOM	1.30
+	ORIGIN	-728 	-137	876
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/ex_blackout.bmp"
+	HEIGHT	-100
+}
